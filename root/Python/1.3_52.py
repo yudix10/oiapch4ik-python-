@@ -1,0 +1,5 @@
+a = int(input('Enter a - '))
+b = int(input('Enter b - '))
+c = int(input('Enter c - '))
+k = int(input('Enter k - '))
+print((a % k == 0 and b % k != 0 and c % k != 0) or (a % k != 0 and b % k == 0 and c % k != 0) or (a % k != 0 and b % k != 0 and c % k == 0))
